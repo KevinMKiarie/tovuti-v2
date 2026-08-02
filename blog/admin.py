@@ -1,6 +1,9 @@
-from django.contrib.auth.models import User
 from django.contrib import admin
+from django.contrib.auth.models import User
+
 from .models import Post
+
+
 @admin.register(Post)
 User.objects.values_list('username',flat=True)
 # Register your models here.
