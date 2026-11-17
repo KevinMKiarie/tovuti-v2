@@ -1,7 +1,6 @@
 # step 3
 from django.conf import settings
 from django.db import models
-
 # step2
 from django.utils import timezone
 
